@@ -20,7 +20,6 @@
 		computed: {
 			url: function() {
 				var url = "https://img.shields.io/badge/" + this.key + "-" + this.value + "-" + this.color + ".svg?style=" + this.style; 
-				console.log(url);
 				return url;
 			},
 		}
