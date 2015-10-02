@@ -1,7 +1,7 @@
 (function(){
 	"use strict";
 
-	Vue.component('badge', {
+	var BadgeComponent = Vue.extend({
 		template: "<img :src='url' />",
 		
 		props: {
